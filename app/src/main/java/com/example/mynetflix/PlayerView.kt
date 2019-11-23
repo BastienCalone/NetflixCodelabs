@@ -3,6 +3,7 @@ package com.example.mynetflix
 import android.content.Context
 import android.net.Uri
 import android.util.AttributeSet
+import android.util.Log
 import android.view.View
 import android.widget.FrameLayout
 import kotlinx.android.synthetic.main.player_view.view.*
@@ -62,5 +63,6 @@ class PlayerView @JvmOverloads constructor(
     override fun onDetachedFromWindow() {
         playerManager.stop()
         super.onDetachedFromWindow()
+        Log.d("TAG", "DETACHED")
     }
 }
