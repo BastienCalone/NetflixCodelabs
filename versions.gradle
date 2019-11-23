@@ -1,3 +1,4 @@
 ext {
-	exoPlayerVersion = '2.9.6'
+    exoPlayerVersion = '2.9.6'
+    jacocoVersion = '0.8.4'
 }
